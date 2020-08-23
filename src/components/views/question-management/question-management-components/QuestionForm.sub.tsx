@@ -29,9 +29,8 @@ export default function QuestionForm_Sub({ editedQuestion }: FormProps_Interface
     <div className="add-question">
       <h1>Add Question</h1>
 
-      <TextField {...questionFieldProps()}/>
-      <TextField {  ...answerFieldProps()}/>
-
+      <TextField {...questionFieldProps()} key='question'/>
+      <TextField {  ...answerFieldProps()} key='answer' />
       <FormField
         name="categories"
         objKey="categoryIds"

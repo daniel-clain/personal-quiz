@@ -1,4 +1,4 @@
-import React from 'react'
+/* import React from 'react'
 import ReactDOM from 'react-dom'
 
 import './../global-style.scss'
@@ -9,8 +9,7 @@ import { Playground } from './playground';
 
 console.log(`the env is: {-- ${process.env}  --}.`)
 
-document.body.innerHTML = `<main id='personal-quiz'></main>`
-const personalQuizContainer = document.getElementById('personal-quiz')
+
 
 
 ReactDOM.render(
@@ -22,3 +21,4 @@ ReactDOM.render(
 )
 
 resizeObserver.observe(personalQuizContainer)
+ */

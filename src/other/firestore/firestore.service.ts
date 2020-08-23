@@ -5,7 +5,7 @@ import 'firebase/auth'
 import 'firebase/firestore'
 import { firebaseConfig, firebaseDemoConfig } from './firebase.config';
 
-if(!!'Use demo' == true)
+if(!!'Use demo' == false)
   firebase.initializeApp(firebaseDemoConfig)
 else
   firebase.initializeApp(firebaseConfig)

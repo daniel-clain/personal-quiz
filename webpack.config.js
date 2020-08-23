@@ -8,6 +8,7 @@ module.exports = env => {
 	}
 		//entry: './src/NEW_APP_INDEX_IDEA.tsx',
 	return {
+		entry: `${__dirname}/src/personal-quiz.app.tsx`,
 		devtool: 'source-map',
 		resolve: {
 			extensions: [ '.tsx', '.ts', '.js' ]
