@@ -2,33 +2,33 @@ import { aquaButton, greenButton, lightGreenButton, lightRedButton,  redButton }
 import { size21, size3, size5 } from "../utilities/fibonacci-sizes";
 import { pxToRem } from "../utilities/pixels-to-rems";
 
-export const quiz = /*css*/`
+export const priorityReminder = /*css*/`
 
   button.start {
     margin-top: ${pxToRem(size21)};
     ${greenButton}
   }
 
-  question-categories{
+  reminder-categories{
     color: white;
     font-style: italic;
     font-size: ${pxToRem(size5)};
   }
 
-  correctness-mark-buttons{
+  importance-mark-buttons{
     margin-top: ${pxToRem(size21)}; 
   }
 
-  correctness-mark-button.Correct{   
+  importance-mark-button.Important{   
     ${greenButton}
   }
-  correctness-mark-button.Almost{ 
+  importance-mark-button.Mostly{ 
     ${lightGreenButton} 
   }
-  correctness-mark-button.Kinda{   
+  importance-mark-button.Kinda{   
     ${lightRedButton}
   }
-  correctness-mark-button.Wrong{  
+  importance-mark-button.Unimportant{  
     ${redButton}
   }
   

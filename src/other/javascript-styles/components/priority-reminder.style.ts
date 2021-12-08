@@ -2,8 +2,8 @@ import { size13,  size233,  size3,  size5,  size55,  size8 } from "../utilities/
 import { mainFont } from "../utilities/fonts";
 import { pxToRem } from "../utilities/pixels-to-rems";
 
-export const personalQuiz = /*css*/`
-  personal-quiz {
+export const personalPriorityReminder = /*css*/`
+  personal-priorityReminder {
     background-color: #222;
     background-image: url('images/cracks-bg.jpg');
     max-width: ${size233}px;
