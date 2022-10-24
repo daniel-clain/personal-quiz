@@ -8,10 +8,7 @@ const credentials = {key: privateKey, cert: certificate};
 const app = express();
 var httpsServer = https.createServer(credentials, app);
 
-/* app.get('/', (req, res) => {
-  console.log('request made');
-  res.send(`${__dirname}/dist/index.html`)
-}) */
+
 app.use(express.static('dist'))
 
 app.get('/favicon.ico', (req, res) => {
