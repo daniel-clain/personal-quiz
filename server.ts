@@ -17,4 +17,4 @@ app.use(express.static('dist'))
 app.get('/favicon.ico', (req, res) => {
   res.sendFile(`${__dirname}/favicon.ico`)
 })
-httpsServer.listen(1234, () => console.log('Personal Quiz App is being on port 1234'));
+httpsServer.listen(2222, () => console.log('Personal Quiz App is being on port 2222'));

@@ -1,0 +1,20 @@
+architecture points
+=========================
+
+* state should be separate from controller
+* separation of concerns should should have a logical dependency relationship
+* game module should be able to work in 3 did environments. 1 no websocket/server. 2 websocket without multiplayer game lobby. 3 with game lobby
+* entire game state should be saveable as a json file and be able to be continued after server or client reset.
+* consistently repeated patterns should be encapsulated into a reusable module
+* thing shouldn't shouldnt be excessively made granular if they are small and simple
+* the entire archichitecture should be able to be represented as a digram in a clear and non confusing way
+* there are 3 reasons to abstract a new module. 1 if it's used by more that 1 thing. 2 if it logically is a separate concern. 3 if the module is sooooo big that it would benefit from being broken down in to separate concerns 
+* state is 100% related to the game instance, controllers are 0% related to the game instance
+initial state should be copied from base game settings
+* controllers should only ever have 1 instance regardless of how many instances of the game are active
+* each client should only be updated if state changes relative to their ui/ux
+* understandable code always trump's minimal code. you should make the code as minimal as possible
+* each module should have all complex code abstracted to it's utility module. the main module it's self should only have code that describes the 'storey' of that module, purely for the purpose of understanding what that module does, any 'utility worker complex code should be abstracted
+
+
+

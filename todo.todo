@@ -1,3 +1,21 @@
+☐ make mono repo
+☐ more space for text area, less space for category name
+☐ no need for next button, judging one of for take u to next
+☐ category buttons mouse over
+☐ ability to full edit duting test
+
+
+☐ ability to mark items wtih high priority, so that it gets asked in quiz much more often. Also low priority, incase its not too important but dont want to delete
+☐ answer no huge text area, toggle option
+☐ need opton to cancel quiz
+☐ test algorithm until not paranoid its has fail edgecases
+☐ make repo for components used by personal quiz and personal reminders. then import component from there
+☐ imporove the ux/animation of the category nesting
+☐ option to link to question (to change category)
+
+
+
+
 ☐ category cant be a parent or child of itself
 ☐ category list filter should show child tags when parent tag selected
 ☐ dont allow circular relationships with categories
