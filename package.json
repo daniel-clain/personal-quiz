@@ -14,7 +14,7 @@
 		"@babel/preset-typescript": "^7.16.0",
 		"babel-loader": "^8.2.3",
 		"babel-plugin-transform-runtime": "^6.23.0",
-		"express": "^4.17.1",
+		"express": "^4.17.3",
 		"mobx": "^6.3.8",
 		"nodemon": "^2.0.12"
 	},
