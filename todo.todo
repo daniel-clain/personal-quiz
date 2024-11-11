@@ -1,21 +1,30 @@
-☐ make mono repo
-☐ more space for text area, less space for category name
-☐ no need for next button, judging one of for take u to next
-☐ category buttons mouse over
-☐ ability to full edit duting test
-
-
-☐ ability to mark items wtih high priority, so that it gets asked in quiz much more often. Also low priority, incase its not too important but dont want to delete
-☐ answer no huge text area, toggle option
-☐ need opton to cancel quiz
-☐ test algorithm until not paranoid its has fail edgecases
-☐ make repo for components used by personal quiz and personal reminders. then import component from there
-☐ imporove the ux/animation of the category nesting
-☐ option to link to question (to change category)
+Fixes:
+  ☐ answer box not needed
+  ☐ more space for text area, less space for category name
+  ☐ no need for next button, judging one of four take u to next
+  ☐ category list filter should show child tags when parent tag selected
+  ☐ bigger correct answer box, smaller question box
+  ☐ better text boxes allow for code syntax colors, dot points
 
 
 
+Improve design:
+  ☐ give option for importance, where you mark a question as important and you can specify importance level and it will factor it into the algorithm for selecting it as a question
+  ☐ imporove the ux/animation of the category nesting
 
-☐ category cant be a parent or child of itself
-☐ category list filter should show child tags when parent tag selected
-☐ dont allow circular relationships with categories
+
+Improve logic:
+  ☐ test algorithm until not paranoid its has fail edgecases
+  ☐ option to link to question (to change category)
+  ☐ category cant be a parent or child of itself
+  ☐ dont allow circular relationships with categories
+
+New features:
+  ☐ need opton to cancel quiz
+  ☐ reset ranking option, if question is update
+  ☐ text component that starts with min height, grows with text to max height, then scrollbar
+
+Big ideas:
+  ☐ make repo for components used by personal quiz and personal reminders. then import component from there
+  ☐ ability to mark items wtih high priority, so that it gets asked in quiz much more often. Also low priority, incase its not too important but dont want to delete
+
